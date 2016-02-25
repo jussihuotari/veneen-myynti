@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="M: matkavene 9m">
+
+    <title>Myydään: Asteroid of the Seas</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="#top"  onclick = $("#menu-close").click(); >Osta retkivene</a>
+            </li>
+            <li>
+                <a href="#about" onclick = $("#menu-close").click(); >Myynti-ilmoitus</a>
+            </li>
+            <li>
+                <a href="#services" onclick = $("#menu-close").click(); >Perustiedot</a>
+            </li>
+            <li>
+                <a href="#portfolio" onclick = $("#menu-close").click(); >Kuvia</a>
+            </li>
+            <li>
+                <a href="#contact" onclick = $("#menu-close").click(); >Ota yhteyttä</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+            <h1>Myydään retkivene</h1>
+            <h3>Osta nyt hintaan 9280 €</h3>
+            <br>
+            <a href="#about" class="btn btn-dark btn-lg">Lue lisää</a>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-offset-1 col-lg-10 text-center">
+                    <h2>Hieno matkavene, jossa reilut sisätilat</h2>
+                    <p class="lead">
+                      Omavalmisteinen vene, jolla kuljettu Suomen länsirannikkoa ja Helsingin saaristoa. Helppokäyttöinen merenkyntäjä, jonka dieselmoottori kuljettaa leppoisaa seitsemän solmun vauhtia kohti uusia seikkailuja. Korkealle nousevat kaiteet pitävät matkustajat turvallisesti kyydissä. Ei sovi kiireiselle kiitäjälle, mutta on täydellinen merellä olosta nauttivalle, joka illalla ankkuroituaan nauttii lasillisen mukavassa hytissä.  
+                    </p>
+                    <p class="lead">
+                      Vene on vuodelta -83. Sisusta on täysin uusittu vuonna 2015. 
+                    </p>
+                    <p class="lead">Vene myydään, koska kaikki vapaa-aika menee omakotitalon rakennustyömaalla.</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Services -->
+    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+    <section id="services" class="services bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>Perusfaktat</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-gavel fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Rakennusmateriaali</strong>
+                                </h4>
+                                <p>Vanerirunkoinen vene puukölillä vuodelta 1983.</p>
+                                <button class="btn btn-light" data-toggle="modal" data-target="#modal-runko">Lisätietoja</button>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-cog fa-spin fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Kone</strong>
+                                </h4>
+                                <p>Moottorina on tehokas (35 hv) BMW:n diesel (BMW D35).<!-- Matkavauhti n. 7 solmua.--></p>
+                                <button class="btn btn-light" data-toggle="modal" data-target="#modal-kone">Lisätietoja</button>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-compass fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Varustelu</strong>
+                                </h4>
+                                <p>GPS, kaikuluotain, radiovastaanotin, jääkaappi, ...</p>
+                                <button class="btn btn-light" data-toggle="modal" data-target="#modal-varustelu">Lisätietoja</button>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-life-ring fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Mitat</strong>
+                                </h4>
+                                <p>Runko on 8,8 m pitkä ja 2,6 m leveä. Nukkumapaikat neljälle aikuiselle.</p>
+                                <button class="btn btn-light" data-toggle="modal" data-target="#modal-mitat">Lisätietoja</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <div class="modal fade" id="modal-runko" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Sulje"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Runko ja materiaalit</h4>
+          </div>
+          <div class="modal-body">
+            <h4>Vanerirunko</h4>
+            <p>
+              Vene on omavalmiste vuodelta 1983. Rakennusmateriaaleina ovat perinteinen puu ja vaneri, joista on tehty vahva ristiinlaminoitu vanerirunko. Vaneri tarjoaa puun hyvät puolet ilman puurakenteen vaatimaa jatkuvaa huolenpitoa. Sisätilan kalusteet on tehty puusta. 
+            </p>
+            <p>
+              Venekerhon aikana vene katsastettiin vuosittain. Edellinen katsastus on vuodelta 2011, ja silloin runko sai täysin puhtaat paperit.
+            </p>
+            <p>
+              Ulkopohjan huoltoon riittää perustoimenpiteet: syksyllä vesiltä nostettaessa pesu ja keväällä ennen vesille laskua myrkkymaali pintaan. 
+            </p>
+            <p>Rungon syväys on 0,90 metriä. Vene painaa reilut 2200 kg.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Sulje</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="modal-kone" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Sulje"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Moottori</h4>
+          </div>
+          <div class="modal-body">
+            <h4>BMW D35</h4>
+            <p>
+              Bemarin dieselkone on varmatoiminen merivesijäähdytteinen putputtaja. Ajotunteja on ~1500 h eli koneella on jäljellä vielä pitkälti ikää. Dieselin kulutus on hyvin niukkaa, 2 l/h. 
+            </p>
+            <p>
+              35 hevosvoimaa riittävät puskemaan kovassakin tuulessa. Mukava matkanopeus on kokemukseni mukaan siinä 7 solmun tienoilla.
+            </p>
+            <p>
+              Veneen varusteisiin kuuluu kaksi erillistä akkua, joista saa valitsemella valittua pääakun tai vara-akun. Kunhan akussa riittää virtaa, niin kone lähtee käyntiin. Starttimoottori on tehokas. 
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Sulje</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="modal-varustelu" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Sulje"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Veneen varustelu</h4>
+          </div>
+          <div class="modal-body">
+            <h4>Hallintalaitteet</h4>
+            <ul>
+              <li>Furuno GPS</li>
+              <li>Kaikuluotain</li>
+              <li>Kulkuvalot</li>
+              <li>2-akkujärjestelmä ja maasähköliityntä</li>
+            </ul>
+            <h4>Sisätilat</h4>
+            <ul>
+              <li>Patjat, verhoilut</li>
+              <li>Lämmitin, Wallas-Marin 1600</li>
+              <li>Radio ja kaiuttimet</li>
+              <li>Makeavesisäiliö 60 l</li>
+              <li>Jääkaappi</li>
+              <li>Kuivakäymälä</li>
+            </ul>
+            <h4>Muuta</h4>
+            <ul>
+              <li>Aurinkokenno</li>
+              <li>Ankkuripallo</li>
+              <li>Ankkuriköydet ja fenderit</li>
+              <li>Uimaportaat</li>
+              <li>Kuomu</li>
+              <li>Kaiteet</li>
+              <li>Pelastusrengas</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Sulje</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="modal-mitat" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Sulje"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Mitat</h4>
+          </div>
+          <div class="modal-body">
+            <h4>8,8 m pitkä ja 2,8 m leveä</h4>
+            <p><img src="./img/measures-small.png" width="371" height="296"/></p>
+            <p>
+              Keskikokoinen retkivene, jossa neljä aikuista yöpyy mukavasti. Kajuutassa on paras nukkumapaikka, ja erillinen kattoluukku lämpimille keleille.
+            </p>
+            <p>
+              Mahtuu vierasvenesatamiin, vaikka aisapaikoille, jos on pakko.
+            </p>
+            <p>
+              Syväys 0,9 m. 
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Sulje</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Callout -->
+    <aside class="callout">
+        <div class="text-vertical-center">
+            <h1>Merellä sielu lepää</h1>
+        </div>
+    </aside>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>Kuvia</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="./img/big-portfolio-1.jpg">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="./img/big-portfolio-2.jpg">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="./img/big-portfolio-3.jpg">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="./img/big-portfolio-4.jpg">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="./img/big-portfolio-5.jpg">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-5.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                              <iframe width="457" height="257" src="https://www.youtube.com/embed/cOt_zSPO44o?rel=0" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                    <!--a href="#" class="btn btn-dark">Lisää kuvia? Ota yhteyttä</a-->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Call to Action -->
+    <aside class="call-to-action bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3>Testaa olisiko sinusta veneen omistajaksi</h3>
+                    <button class="btn btn-lg btn-light" data-toggle="modal" data-target="#modal-test">
+                      Klikkaa!
+                    </button>
+                    <!--a href="#" class="btn btn-lg btn-dark">Varmista tulos!</a-->
+                </div>
+            </div>
+        </div>
+    </aside>
+    <div class="modal fade" id="modal-test" role="dialog" aria-labelledby="VeneenOmistusTesti">
+      <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Sulje"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="VeneenOmistusTesti">Testin tulos</h4>
+          </div>
+          <div class="modal-body">
+            <p class="lead">Kyllä olisi!</p>
+            <p>Onneksi olkoon</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Map -->
+    <section id="contact" class="map">
+        <a href="https://www.google.fi/maps/place/Melkinpier/@60.1474429,24.6959768,10.47z/data=!4m2!3m1!1s0x46920a531e3a576f:0x4a957a3169be6579?hl=fi" target="_blank">
+          <img width="100%" height="100%" src="https://maps.googleapis.com/maps/api/staticmap?size=1500x500&zoom=10&markers=%7C60.1474429,24.90818"/>
+        </a>
+        <small>
+            <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Melkin+laituri,+Helsinki,+Finland&amp;aq=0&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;t=m&amp;z=15&amp;iwloc=A"></a>
+        </small>
+        </iframe>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4><strong>Osta vene</strong>
+                    </h4>
+                    <p>Jätkäsaari<br>Helsinki</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-phone fa-fw"></i> 040 555 1234</li>
+                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:ostavene@gmail.com">ostavene@gmail.com</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <!--ul class="list-inline">
+                        <li>
+                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul-->
+                    <hr class="small">
+                    <p class="text-muted">Copyright &copy; Champagne Uncles 2016</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    </script>
+
+</body>
+
+</html>
