@@ -1,6 +1,6 @@
 # Myydään retkivene
 
-Veneemme myynti-ilmoitus online. 
+Veneemme myynti-ilmoitus online. Katso https://github.com/jussihuotari/veneen-myynti
 
 ## Copyright and license
 
